@@ -269,16 +269,6 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   border-radius: 2px;
 }
 
-/* Photo Container */
-.polaroid-frame {
-  background-color: var(--bg-secondary);
-  border: 1px solid var(--border-color);
-  border-radius: 1.25rem;
-  box-shadow: var(--shadow-md);
-  padding: 0.75rem;
-  position: relative;
-}
-
 /* Scroll reveal */
 .reveal {
   opacity: 0;
@@ -315,7 +305,6 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 .bg-footer   { background-color: var(--bg-secondary); }
 .menu-glass  { background-color: var(--glass-bg); }
 .bg-status   { background-color: var(--tone-emerald-fg); }
-.glow-gradient { background: linear-gradient(90deg, var(--glow-peach), var(--glow-orange)); }
 .scrim-gradient { background: linear-gradient(to top, var(--scrim), transparent 60%); }
 
 ::selection { background: var(--accent-strong); color: var(--on-accent); }
